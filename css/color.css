@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box; }
 
-/*insert custom css below*/
-
 body {
   padding: 20px 60px;
   margin: 0;
@@ -23,6 +21,9 @@ a:hover {
   text-decoration: none;
 }
 
+.heading {
+  background-color: #999;
+}
 
 h1 small {
   color: #333;
@@ -30,7 +31,7 @@ h1 small {
 }
 
 .box {
-  background-color: #ccc;
+  background-color: #eee;
   border: 1px solid #999;
   width: 400px;
   margin: 20px 0;
@@ -39,4 +40,10 @@ h1 small {
 
 .box a.read-more {
   text-decoration: underline;
+}
+
+.footer {
+  background-color: #999;
+  color: #fff;
+  font-style: italic;
 }
