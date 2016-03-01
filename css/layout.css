@@ -33,6 +33,7 @@ body {
 .box img {
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .box a.read-more {
