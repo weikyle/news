@@ -5,12 +5,15 @@ body {
 }
 
 .heading {
+  position:fixed;
 }
 
 .heading h1 {
 }
 
 .box {
+  margin: 10px;
+  padding: 20px;
 }
 
 .box:last-child {
