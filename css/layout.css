@@ -6,6 +6,7 @@ body {
 
 .heading {
   position:fixed;
+  border:5px solid black;
 }
 
 .heading h1 {
