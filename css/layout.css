@@ -12,9 +12,10 @@ body {
 }
 
 .box {
-  margin: 10px;
+  margin: auto;
   padding: 20px;
   position:relative;
+  
 }
 
 .box:last-child {
