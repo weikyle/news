@@ -30,6 +30,7 @@ body {
 }
 
 .box img {
+  margin:5px;
 }
 
 .box a.read-more {
