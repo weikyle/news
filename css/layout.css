@@ -8,6 +8,7 @@ body {
   position:fixed;
   border:5px solid black;
   top: 10px;
+  width:100%;
 }
 
 .heading h1 {
@@ -35,4 +36,5 @@ body {
 .footer {
   position: fixed;
   bottom: 10px;
+  width: 100%;
 }
