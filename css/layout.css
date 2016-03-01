@@ -36,13 +36,14 @@ body {
 }
 
 .box img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  position: relative;
+  width: 100%;
 }
 
 .box a.read-more {
+  display: black;
+  margin-top: 5px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
 }
 
 .footer {
