@@ -9,6 +9,7 @@ body {
   border:5px solid black;
   top: 10px;
   width:100%;
+  bottom: 10px;
 }
 
 .heading h1 {
