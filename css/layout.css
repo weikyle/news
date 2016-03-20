@@ -2,20 +2,45 @@
 
 
 body {
+  background-color: white;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  
 }
 
 .heading {
-  position:fixed;
-  border-bottom:2px solid black;
+
+  
   top: 0;
   width:100%;
   left:0;
-  padding: 0 20px;
+  padding: 0px;
+  background-image: url(../img/Willie_Cauley_Stein477bw-1440x810_edited3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 591px;
+
 
 }
 
 .heading h1 {
-  margin: 10px 0;
+  margin:   0;
+  color:  #888D8C;
+  font-size: 30px;
+  border-bottom: thick solid #111111;
+  font-weight: bold;
+  
+
+
+}
+
+
+.heading h2 {
+  margin: 160px  100px;
+  color:  #111111;
+  font-size: 55px;
+  line-height: 200%;
+  text-align: center:;
+
 }
 
 .box {
@@ -24,7 +49,7 @@ body {
   padding: 20px;
   position:relative;
  
-  float:left;
+  float:center;
   width: 30%;
 }
 
