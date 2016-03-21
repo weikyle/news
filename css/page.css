@@ -3,7 +3,9 @@
 
 body {
   background-color: white;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: Georgia, serif;
+  color:#111111;
+  font-size: 16px;
   
 }
 
@@ -14,12 +16,10 @@ body {
   width:100%;
   left:0;
   padding: 0px;
-  background-image: url(../img/Willie_Cauley_Stein477bw-1440x810_edited8.jpg);
-  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
-  height: 591px;
-  margin-bottom: 0px;
+ background-color: white;
+  margin-bottom: 20px;
 
 
 }
@@ -46,14 +46,14 @@ body {
 
 
 .heading h2 {
-  margin-top: 130px;  
-  margin-left: 70px;
+  margin-top: 70px;  
+  margin-left: 90px;
   margin-bottom: 0px;
   color:  #111111;
-  font-size: 65px;
+  font-size: 55px;
   line-height: 150%;
-  text-align: left;
-  
+  text-align: center;
+
 
 }
 
@@ -61,16 +61,20 @@ body {
 {
   line-height: 10%;
   font-weight: normal;
-  margin-left: 70px;
-  color:  #888D8C;
-  font-size: 22px;
-  font-style: italic;
+  font-variant: small-caps;
+  text-align: center;
+  color:  #111111;
+  font-size: 20px;
   font-family: Georgia, serif;
+  margin-bottom: 40px;
+  margin-top:5px;
+
 
 }
 
 .home
 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   color:  #111111;
   font-size: 18px;
   font-weight: bold;
@@ -86,6 +90,14 @@ body {
   color:  #888D8C;
 }
 
+.article
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:10%;
+  margin-right: 10%;
+}
+
 .grey {
   color:  #888D8C;
 
@@ -93,25 +105,23 @@ body {
 
 .quote
 {
- font-size: 16px;
  font-style: italic;
- color: white;
- font-weight: normal;
- font-family: Georgia, serif;
+ color:  #888D8C;
+ font-size: 110%;
 }
 
 .box {
   margin-top: 50px;
   margin-right: 2%;
   margin-left: 15%;
-  margin-bottom: 90px;
+  margin-bottom: 110px;
   padding: 0;
   position:relative;
   font-family: Georgia, serif;
   font-size: 18px;
   float:center;
-  width: 70%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 12px 40px 0 rgba(0, 0, 0, 0.76);
+  width: 75%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 12px 40px 0 rgba(0, 0, 0, 0.46);
   font-weight: normal;
   border:0 solid white;
 }
@@ -126,8 +136,6 @@ body {
   color: white;
   font-weight: bold;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-   border-bottom: 1px solid white;
-   padding-bottom: 12px;
 }
 
 .box img {
@@ -172,14 +180,14 @@ img.grayscale:hover {
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 16%;
+    padding-top: 20%;
     padding-left: 10%;    
     padding-right: 10%;
-    padding-bottom: 21%;
+    padding-bottom: 16%;
     background-color: rgba(0,0,0,0.6);
     color: white;
     font-weight: bold;
-    line-height: 1.2em;
+    line-height: 1.1em;
     -webkit-transition: all 1s linear;
     -o-transition: all 1s linear;
     -ms-transition: all 1s linear;
@@ -196,7 +204,6 @@ img.grayscale:hover {
 }
 a
 {
-  
   text-decoration: none;
 }
 
@@ -207,18 +214,16 @@ span
 
 .title
 {
-  font-size: 28px;
   color:white;
-   
 }
 .title:hover
 {
-  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px #888D8C;
+  text-decoration: underline;
 }
 .name
 {
   font-weight: normal;
-  font-size: 28px;
+  color: #888D8C;
 }
 
 .footer {
@@ -228,7 +233,7 @@ span
   right:0;
   width: 100%;
   padding: 0;
-  padding-left: 95%;
+  padding-left:95%;
   color: #888D8C;
   background-color: white;
   border-top: 2px solid #111111;
