@@ -116,6 +116,15 @@ body {
  color:  #888D8C;
 
 }
+.letter
+{
+  color:#1111111;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left:10%;
+  margin-right: 10%;
+}
 
 .box {
  margin-top: 50px;
