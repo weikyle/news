@@ -75,10 +75,50 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-left: 72%;
-  margin-top: 35px;
+  margin-top: 2%;
   font-variant: normal;
   top:0;
   position:fixed;
+}
+
+.logo
+{
+  position: fixed;
+  margin-left: 1%;
+  margin-right: 2%;
+  width:90%;
+  top:0px;
+}
+
+.players
+{
+  color:  #111111;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 65%;
+  margin-top: 1%;
+  font-variant: normal;
+  top:0;
+  position:fixed;
+  background-color: white;
+}
+
+.btn-primary {
+    color: #111111;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    color: #111111;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #111111;
+    background-color: white;
+    border-color: white;
 }
 
 .home:hover
