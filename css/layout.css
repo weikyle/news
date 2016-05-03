@@ -81,6 +81,22 @@ body {
   position:fixed;
 }
 
+.home:hover
+{
+  color:  #888D8C;
+}
+
+.thePlayers
+{
+
+}
+
+.thePlayers:hover
+{
+ color:white;
+ text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px #888D8C;
+}
+
 .logo
 {
   position: fixed;
@@ -121,10 +137,7 @@ body {
     border-color: white;
 }
 
-.home:hover
-{
-  color:  #888D8C;
-}
+
 
 .grey {
   color:  #888D8C;
@@ -172,6 +185,7 @@ body {
 
 .box img {
   width: 100%;
+  height: 22%;
 }
 
 .box .read-more {
@@ -212,10 +226,11 @@ img.grayscale:hover {
     top: 0;
     left: 0;
     right: 0;
+    height: 100%;
     padding-top: 16%;
     padding-left: 10%;    
     padding-right: 10%;
-    padding-bottom: 21%;
+    padding-bottom: 22%;
     background-color: rgba(0,0,0,0.6);
     color: white;
     font-weight: bold;
