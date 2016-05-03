@@ -270,4 +270,13 @@ span
   border-top: 2px solid #111111;
   font-variant: small-caps;
   z-index: +1;
+  margin-top: 20px;
+}
+
+
+.media
+{
+  margin-left:45%;
+
+  margin-bottom: 20px;
 }
